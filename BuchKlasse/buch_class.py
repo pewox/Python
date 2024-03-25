@@ -7,6 +7,7 @@ class Buch():
 
     def __str__(self, arg):
         print(arg)
+        
     def blaettern(self, arg):
         if self.im_regal == True:
             self.__str__('Buch aus dem Regal nehmen!')
