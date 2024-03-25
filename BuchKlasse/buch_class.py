@@ -42,6 +42,6 @@ buch = Buch(500, 0, '')
 buch.blaettern(37) 
 buch.titel_aendern('Ein Roman')
 buch.seiten_aendern(490)
-buch.entnehmen(True)
+buch.entnehmen(False)
 buch.ausgabe()
 
