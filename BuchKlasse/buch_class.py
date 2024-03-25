@@ -18,7 +18,7 @@ class Buch():
                 self.seite_aktuell = self.seiten
             else:
                 self.seite_aktuell += arg
-        self.__str__(f'jetzt auf Seite: {self.seite_aktuell}')
+            self.__str__(f'jetzt auf Seite: {self.seite_aktuell}')
 
     def entnehmen(self, arg):
         self.im_regal = arg
